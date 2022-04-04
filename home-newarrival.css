@@ -17,6 +17,7 @@
   --card-background: #ebe5f4;
   --color-black: #000;
   --color-white: #fff;
+  --nav-color:#e5caf7;
 
   --container-width-lg: 85%;
   --container-width-md: 90%;
@@ -322,17 +323,18 @@ img {
 
 
 .first-row {
-  width: 100%;
+  
   display: grid;
   grid-template-columns: repeat(5,1fr);
+
   
 }
 .second-row {
-  width: 100%;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  
 }
+
+
 
 
 /* end of chue css */
@@ -371,7 +373,6 @@ img {
   justify-content: center;
   color: #A5586E;
   font-size: 20px;
-  margin-bottom: 30px;
 }
 
 
@@ -432,7 +433,10 @@ button.white-1:hover {
   display: flex;
   align-items: center;
   gap: 4rem;
-  margin-left: 25%;
+  margin-left: 19%;
+}
+.nav-section{
+padding: 0rem 0rem;
 }
 
 .nav_menu li img {
@@ -579,8 +583,13 @@ nav {
   background-color: #6C0A9B;
   /* Red */
   color: white;
-  margin: 5rem 0 0 0;
+  margin: 0 0 0 0;
   text-align: center;
+}
+#alters-section{
+  padding: 0;
+  margin-top: 5rem;
+  margin-bottom: -1rem;
 }
 
 /* The close button */
@@ -753,7 +762,7 @@ footer .copyright {
 
 .submenu {
   position: absolute;
-  background: var(--nav-color);
+  background: #efe6f5;
   margin-left: -15px;
   display: none;
 }
@@ -774,6 +783,62 @@ footer .copyright {
   font-size: 1rem;
 }
 /* end of htoolay h&f  css */
+
+/* slider chue */
+
+.slider-section{
+  padding-top: 1rem;
+}
+
+.bg-light {
+  background-color: transparent !important;
+}
+
+.carousel-item {
+  height: 80vh;
+  min-height: 300px;
+}
+
+.carousel-caption {
+  margin-bottom: 10rem;
+
+  /* text-align: left; */
+}
+
+.carousel-caption h2 {
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+  color: var(--color-black);
+  font-weight: bold;
+  font-family: "Oswald",
+    sans-serif;
+  text-align: left;
+}
+
+.carousel-caption p {
+  width: 70%;
+  margin: auto;
+  font-size: 30px;
+  line-height: 1.9;
+  color: var(--color-black);
+  font-family: 'Yesteryear',
+    cursive;
+  text-align: right;
+  margin-top: 5rem;
+}
+
+.d-block {
+  height: 70rem;
+}
+#carouselExampleCaptions {
+  width: 100%;
+  margin: 0;
+}
+
+/* end of slider chue */
+
 
 
 /* =====Media Queries===== */
@@ -842,7 +907,26 @@ footer .copyright {
     width: 100%;
     margin-bottom: 0rem;
   }
-  
+  #carouselExampleCaptions {
+    width: 100%;
+    margin: 0;
+  }
+      
+      .carousel-control-prev {
+        bottom: 15rem;
+      
+      }
+      
+      .carousel-control-next {
+        bottom: 15rem;
+      }
+      
+      .carousel-caption h2 {
+        font-size: 13px;
+      }
+      img.d-block.w-100{
+        height: 31rem;
+      }
   
   
   /* end chue mobile 450 */
@@ -915,7 +999,7 @@ footer .copyright {
 }
 
 /* =====Media Queries(tablets)===== */
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 820px) {
   .container {
     width: var(--container-width-md);
     margin: 0 auto;
@@ -986,6 +1070,34 @@ footer .copyright {
     margin-top: 0.6rem;
     margin-bottom: 0.6rem;
   }
+  /*slider  */
+
+  #carouselExampleCaptions{
+    width: 100%;
+    margin: 0;
+  }
+  
+  .carousel-caption h2 {
+    font-size: 17px;
+  }
+  .carousel-caption p{
+    margin-top: 5rem;
+  }
+  .d-block {
+    height: 40rem;
+  }
+  .carousel-caption {
+    margin-bottom: 29rem;
+  }
+  .carousel-control-prev {
+    margin-bottom: 18rem;
+  
+  }
+  
+  .carousel-control-next {
+    margin-bottom: 18rem;
+  }
+
   /* end of chue tablet 850 */
   /* thaw blog tablet 850 */
   

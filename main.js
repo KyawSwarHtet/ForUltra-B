@@ -6,15 +6,19 @@ const navmeun= document.getElementById("menu_sub");
 const submenu=document.querySelector("submenu");
 
 searchBox.addEventListener('click',()=>{
+    if(search_warp.style.display=='none'){
         search_warp.style.display='block';
+    }else{
+        search_warp.style.display='none';
+    }
 })
 
 
 
 //submenu
-navmeun.addEventListener("click",()=>{
-    submenu.style.display="block";
-})
+// navmeun.addEventListener("click",()=>{
+//     submenu.style.display="block";
+// })
 
 
 
