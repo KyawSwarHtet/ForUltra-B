@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/home-newarrival.css" type="text/css" />
     <link rel="stylesheet" href="./library/particle.css">
     <link rel="stylesheet" href="./css/single.css">
+    <link rel="stylesheet" href="css/cart.css">
     
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -74,6 +75,22 @@
               <i class="uil uil-search"></i>
             </div>
           </div>
+        </div>
+        <div class="cart1">
+          <h2 class="section-header">CART</h2>
+          <div class="cart-row">
+              <span class="cart-item cart-header cart-column">ITEM</span>
+              <span class="cart-price cart-header cart-column">PRICE</span>
+              <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+          </div>
+          <div class="cart-items">
+          </div>
+          <div class="cart-total">
+              <strong class="cart-total-title">Total</strong>
+              <span class="cart-total-price">$0</span>
+          </div>
+          <button class="btn1 btn-primary1 btn-purchase" type="button">PURCHASE</button>
+          <button id="close-cart"><i class="uil uil-multiply"></i></button>
         </div>
     
       </nav>
@@ -1751,5 +1768,6 @@
 
     <!-- javascript -->
     <script src="./main.js"></script>
+    <script src="./cart.js"></script>
   </body>
 </html>

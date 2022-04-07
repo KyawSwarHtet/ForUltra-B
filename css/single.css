@@ -782,6 +782,7 @@ img {
       color: var(--color-black);
       cursor: pointer;
       margin-top: 1.5rem;
+      background: transparent;
     }
     .btn2 button#close-menu-btn {
       display: none;

@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="/ForUltra-B/css/contact.css">
     <link rel="stylesheet" href="/ForUltra-B/css/single.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css/cart.css">
     <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:wght@300;500;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:wght@400;700&display=swap" rel="stylesheet"/>
     <!-- fontawesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -64,6 +65,22 @@
                 <i class="uil uil-search"></i>
               </div>
             </div>
+          </div>
+          <div class="cart1">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+            <button class="btn1 btn-primary1 btn-purchase" type="button">PURCHASE</button>
+            <button id="close-cart"><i class="uil uil-multiply"></i></button>
           </div>
       
         </nav>
@@ -188,7 +205,6 @@
 
     
 <script src="/ForUltra-B/main.js"></script>
-    
-
+<script src="./cart.js"></script>
 </body>
 </html>
