@@ -84,7 +84,7 @@ img {
   width: 100%;
   height: 100%;
   display: block;
-  object-fit: cover;
+  /* object-fit: cover; */
 }
 
 .btn {
@@ -111,11 +111,13 @@ img {
 .promotion_title h2 {
   margin-bottom: 0.5rem;
 }
-/* .promotion_product-container {
-  display: grid;
+ .promotion_product-container {
+  /* display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
-} */
+  gap: 1rem; */
+  width: 100%;
+  height: 26.5rem !important;
+} 
 .product {
   width: 100%;
   height: 23rem;
@@ -129,8 +131,9 @@ img {
 }
 
 .product .product-img {
-  width: 100%;
+  width: 62% !important;
   height: 180px;
+  margin-left: 4rem !important;
   transition: all 1s;
 }
 .product .product-img:hover {
@@ -157,7 +160,7 @@ img {
   top: 8px;
   right: 10px;
 
-  z-index: 99;
+  z-index: 1;
   /* right: 30px; */
   text-align: left;
   padding-top: 0;
@@ -203,11 +206,11 @@ img {
 }
 .top {
   position: absolute;
-  top: -10px;
-  right: -14px;
+  top: 0px;
+  right: -4px;
 }
 .wrapper .icon .tooltip {
-  font-size: 13px;
+  font-size: 11px;
   /* line-height: 3px; */
   border: 1px solid transparent;
   border-radius: 25px;
@@ -218,32 +221,44 @@ img {
   pointer-events: none;
   transition: all 0.5s cubic-bezier(0.6, -0.55, 0.265, 1.55);
 }
-/* .wrapper .icon .tooltip::before {
+.wrapper .icon .tooltip.top::before {
   content: " ";
-  display: block;
-  background: linear-gradient(
-    135deg,
-    transparent,
-    var(--color-black),
-    var(--color-black)
-  );
-  width: 3rem;
-  height: 3rem;
   position: absolute;
-  left: 50%;
-  top: -1.5rem;
-  transform: rotate(45deg);
-} */
+  width: 11px;
+  height: 11px;
+  background: #87cac5;
+  bottom: -7px;
+  left: 54%;
+  transform: translateX(-50%) rotate(45deg);
+  /* z-index: -2; */
+
+}
+
+.wrapper .icon .tooltip.right::before {
+  content: " ";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: orange;
+  bottom: -6px;
+  left: 60%;
+  transform: translateX(-50%) rotate(45deg);
+  z-index: 1;
+
+}
+
 .wrapper .icon:hover .tooltip.right {
-  bottom: 45px;
+  bottom: 57px;
   right: 4px;
+  background-color: orange;
   opacity: 1;
   pointer-events: auto;
 }
+
 .wrapper .icon:hover .tooltip.top {
   /* bottom: 50px; */
-  top: -25px;
-  right: 1px;
+  top: -22px;
+  right: -4px;
   background-color: #87cac5;
   color: #a8132c;
   opacity: 1;
@@ -253,7 +268,7 @@ img {
   transition: all 0.5s;
 }
 .product:hover {
-  transform: translateY(-5px);
+  transform: translateY(-6px);
 }
 /* chue css */
 

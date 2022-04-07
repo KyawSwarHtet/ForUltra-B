@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SignIn & SignUp Page</title>
+    <!-- <link rel="stylesheet" href="./css/home-newarrival.css"> -->
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+
+    <link rel="stylesheet" href="./css/signin-signup.css">
+    <link rel="stylesheet" href="./css/single.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- header Navigation -->
+    <section class="nav-section">
+        <nav>
+            <div class="nav_container">
+                <ul class="nav_menu">
+                    <li><a href="home-newarrival.html">Home</a></li>
+                    <li id="menu_sub"><a href="#">Shop</a>
+                        <div class="submenu">
+                            <ul>
+                                <li><a href="skin.html">SkinCare</a></li>
+                                <li><a href="makeup-page.html">Make-Up</a></li>
+                                <li><a href="lip.html">Lip Stick</a></li>
+                                <li><a href="body.html">Hair & Body</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="bestSeller.html">Best-Seller</a></li>
+                    <li><img src="news/01.png" alt=""></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="wishlist.html">Wishlist</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="logo1">
+                    <img src="news/01.png" alt="">
+                </div>
+                <div class="btn">
+                    <button><a href="#" id="search"><i class="uil uil-search"></i></a></button>
+                    <button><a href="./signin-signup.html" id="login"><i class="uil uil-user"></i></a></button>
+                    <button><a href="#" id="shopping"><i class="uil uil-shopping-bag"></i></a></button>
+                </div>
+                <div class="btn2">
+                    <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+                    <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+                </div>
+            </div>
+            <div id="searchbox" class="search_warp hide">
+                <div class="search_box">
+                    <input type="text" class="input" placeholder="Search...">
+                    <div class="btn ">
+                        <i class="uil uil-search"></i>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+    </section>
+    <!-- End of header Navigation -->
+
+    <div class="login-container">
+        <div class="forms-container">
+            <div class="signin-signup">
+                <!-- for sign in -->
+                <form action="" class="sign-in-form">
+                    <h2 class="titlt">Sign in</h2>
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Username">
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password">
+                    </div>
+                    <input type="submit" value="Login" class="logbtn solid">
+                    <p class="social-text">Or Sign in with social platforms</p>
+                    <div class="social-media">
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-google"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </form>
+                <!-- end of sign in -->
+
+                <!-- for sign up -->
+                <form action="" class="sign-up-form">
+                    <h2 class="titlt">Sign Up</h2>
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Username">
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-envelope"></i>
+                        <input type="text" placeholder="Email">
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password">
+                    </div>
+                    <input type="submit" value="Sign Up" class="logbtn solid">
+                    <p class="social-text">Or Sign Up with social platforms</p>
+                    <div class="social-media">
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-google"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="panels-container">
+
+            <div class="panel left-panel">
+                <div class="login-content">
+                    <h3>New Here ?</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur veniam in et labore sequi,
+                        corporis nihil distinctio fugiat, quisquam vitae quidem consequuntur adipisci?</p>
+                    <button class="logbtn transparent" id="sign-up-btn">Sign Up</button>
+                </div>
+                <img src="./images/login.svg" class="image" alt="">
+            </div>
+
+            <div class="panel right-panel">
+                <div class="login-content">
+                    <h3>One of Us ?</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur veniam in et labore sequi,
+                        corporis nihil
+                        distinctio fugiat, quisquam vitae quidem consequuntur adipisci?</p>
+                    <button class="logbtn transparent" id="sign-in-btn">Sign In</button>
+                </div>
+                <img src="./images/signup.svg" class="image" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
