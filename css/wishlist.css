@@ -43,7 +43,7 @@ body {
 }
 
 .section {
-    padding: 4rem 0;
+    padding: 3rem 0;
 }
 
 /* section h2 {
@@ -79,16 +79,20 @@ h4 {
     font-family: "Open Sans", sans-serif;
     font-size: 1rem;
 }
+.wishlist{
+    padding-top: 0rem;
+}
 
 .banner {
-    background: url(/images/wishlist.banner.png) no-repeat;
-    height: 20rem;
+    background: url(/ForUltra-B/images/wishlist.banner.png) no-repeat;
+    height: 30rem;
     background-size: cover;
+    margin-top: 6.5rem;
 }
 
 .banner h1 {
     text-align: center;
-    padding-top: 8rem;
+    padding-top: 10rem;
     font-size: 4rem;
     color: #4a046a;
 }
@@ -132,7 +136,7 @@ h4 {
     }
 
     .first-tab h4 {
-        margin-right: 6rem;
+        margin-right: 5rem;
     }
 
     .header-wishlist h2 {
