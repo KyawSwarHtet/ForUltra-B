@@ -101,3 +101,19 @@ function readMore(btn){
     btn.textContent == "Read More" ? btn.textContent = "Read Less" : btn.textContent = "Read More";
 }
 
+/* Login and Sign up JS */
+
+   const sign_in_btn =document.querySelector("#sign-in-btn");
+   const sign_up_btn =document.querySelector("#sign-up-btn");
+   const login_container =document.querySelector(".login-container");
+
+   sign_up_btn.addEventListener('click',()=>{
+    login_container.classList.add("sign-up-mode");
+   })
+
+    sign_in_btn.addEventListener('click',()=>{
+    login_container.classList.remove("sign-up-mode");
+   })
+
+   /* End of Login and Sign up JS */
+

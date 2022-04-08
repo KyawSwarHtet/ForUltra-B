@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css"> 
     <link rel="stylesheet" href="css/single.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="css/home-newarrival.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,300;1,400&family=Oswald:wght@300;400;500;600;700&display=swap"
@@ -21,6 +22,7 @@
 
 <!-- annimate.css -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<link rel="stylesheet" href="css/cart.css">
 </head>
 <body>
   
@@ -48,11 +50,11 @@
                 <div class="logo1">
                     <img src="news/01.png" alt="">
                 </div>
-                 <div class="btn">
+                <div class="btn">
                     <button id="search"><i class="uil uil-search"></i></button>
-                    <button id="login"><i class="uil uil-user"></i></i></button>
+                    <a class="login-nav" href="./signin-signup.html" id="login"><i class="uil uil-user"></i></a>
                     <button id="shopping"><i class="uil uil-shopping-bag"></i></button>
-                </div> 
+                </div>
                 <div class="btn2">
                     <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
                     <button id="close-menu-btn"><i class="uil uil-multiply"></i></button> 
@@ -66,7 +68,23 @@
                     </div>
                 </div>
             </div>
-           
+        <!-- cart htoo lay -->
+        <div class="cart1">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+            <button class="btn1 btn-primary1 btn-purchase" type="button">PURCHASE</button>
+            <button id="close-cart"><i class="uil uil-multiply"></i></button>
+        </div>
         </nav>
     </section> 
     
@@ -79,6 +97,7 @@
     <div id="header">
         <img src="news/photo_2022-03-29_09-36-27.jpg" alt="">
     </div>
+
     <section id="product" class="container">
         <div class="sproductimg">
             <img src="news/Lipstick/L9.png" id="MainImg" alt="">
@@ -120,7 +139,7 @@
         </div>
     </section>
 
-    <section class="promotion_container container mySwiper">
+    <section class="promotion_container container mySwiper product-margin">
         <div class="promotion_title">
             <h2 class="capital">New Arrival </h2>
             <h5 class="second-text">Explore the latest products in our collection! </h5>
@@ -602,6 +621,7 @@
 </script>
 
     <script src="main.js"></script> 
+    <script src="/ForUltra-B/cart.js"></script>
     
 </body>
 </html>

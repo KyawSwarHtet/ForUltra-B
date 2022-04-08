@@ -28,7 +28,9 @@
 
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    
     />
+    <link rel="stylesheet" href="css/cart.css">
   </head>
   <body>
 
@@ -44,7 +46,7 @@
                   <li><a href="/ForUltra-B/skin-care.html">SkinCare</a></li>
                   <li><a href="/ForUltra-B/makeup-page.html">Make-Up</a></li>
                   <li><a href="/ForUltra-B/Lipstick.html">Lip Stick</a></li>
-                  <li><a href="/ForUltra-B/hair.html">Hair & Body</a></li>
+                  <li class="active"><a href="/ForUltra-B/hair.html">Hair & Body</a></li>
                 </ul>
               </div>
             </li>
@@ -59,7 +61,7 @@
           </div>
           <div class="btn">
             <button id="search"><i class="uil uil-search"></i></button>
-            <button id="login"><i class="uil uil-user"></i></i></button>
+            <a class="login-nav" href="./signin-signup.html" id="login"><i class="uil uil-user"></i></a>
             <button id="shopping"><i class="uil uil-shopping-bag"></i></button>
           </div>
           <div class="btn2">
@@ -74,6 +76,24 @@
               <i class="uil uil-search"></i>
             </div>
           </div>
+        </div>
+
+        <!-- cart htoo lay -->
+        <div class="cart1">
+          <h2 class="section-header">CART</h2>
+          <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+          </div>
+          <div class="cart-items">
+          </div>
+          <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$0</span>
+          </div>
+          <button class="btn1 btn-primary1 btn-purchase" type="button">PURCHASE</button>
+          <button id="close-cart"><i class="uil uil-multiply"></i></button>
         </div>
     
       </nav>
@@ -1751,5 +1771,6 @@
 
     <!-- javascript -->
     <script src="./main.js"></script>
+    <script src="/ForUltra-B/cart.js"></script>
   </body>
 </html>

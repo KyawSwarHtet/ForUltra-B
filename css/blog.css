@@ -239,8 +239,12 @@ h4 {
     }
 
     .left-blog h3 {
+        padding-top: 70px;
         margin-top: 1rem;
     }
+
+    
+   
 
     .left-p {
         width: 25rem;
@@ -361,4 +365,12 @@ h4 {
     }
 
 
+}
+@media screen and (min-width: 1200px) {
+
+    .h3,
+    h3 {
+        font-size: 1.75rem;
+        padding-top: 12px;
+    }
 }
