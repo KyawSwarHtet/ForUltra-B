@@ -29,6 +29,7 @@
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
+    <link rel="stylesheet" href="css/cart.css">
   </head>
   <body>
 
@@ -76,6 +77,23 @@
           </div>
         </div>
     
+        <!-- cart htoo lay -->
+        <div class="cart1">
+          <h2 class="section-header">CART</h2>
+          <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+          </div>
+          <div class="cart-items">
+          </div>
+          <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$0</span>
+          </div>
+          <button class="btn1 btn-primary1 btn-purchase" type="button">PURCHASE</button>
+          <button id="close-cart"><i class="uil uil-multiply"></i></button>
+        </div>
       </nav>
     </section>
     <!-- End of header Navigation -->
@@ -1748,5 +1766,6 @@
 
     <!-- javascript -->
   <script src="./main.js"></script>
+  <script src="/ForUltra-B/cart.js"></script>
   </body>
 </html>
