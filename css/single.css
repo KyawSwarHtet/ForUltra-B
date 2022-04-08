@@ -159,9 +159,9 @@ nav{
 }
 
 .nav_menu a:hover {
-  background-color: rgb(72, 202, 193);
-  color: #fff !important;
-  padding: 1px 2px;
+  /* background-color: rgb(72, 202, 193); */
+  color: rgb(246, 85, 216) !important;
+  /* padding: 1px 2px; */
 }
 
 /* nav active */
@@ -195,13 +195,13 @@ nav{
     padding-top: 10px;
     line-height: 1 !important;
 }
-.btn button{
+.btn button,.login-nav{
     margin: 10px 0;
     padding: 10px;
     border-radius: 50%;
     background-color: transparent;
 }
-.btn i{
+.btn i,.login-nav i{
     font-size: 20px;
     gap: 2rem;
     font-weight: bold;
@@ -272,7 +272,7 @@ nav{
     background-color: #6C0A9B; /* Red */
     color: white;
     margin-top: 6.5rem;
-    margin-bottom: rem;
+    margin-bottom: 1rem;
     text-align: center;
   }
   #alters-section{
@@ -462,6 +462,7 @@ footer .copyright{
     display: flex;
     margin-top: 20px;
     padding:0  10%;
+    margin-bottom: 11rem;
 }
 #product .sproductimg{
     width: 40%;
@@ -552,9 +553,13 @@ img {
     display: block;
     object-fit: cover;
   }
-.promotion_container {
-    /* display: flex;
-    flex-direction: column; */
+
+ 
+  /* .product-margin{
+    margin-top: 4rem;
+  } */
+/* .promotion_container {
+    
     overflow-x: hidden;
     position: relative;
     margin-bottom: 3rem;
@@ -573,7 +578,7 @@ img {
     top: 8px;
     right: 10px;
     z-index: 99;
-    /* right: 30px; */
+    
     text-align: left;
     padding-top: 0;
 }
@@ -620,7 +625,7 @@ img {
     right: 10px;
   
     z-index: 99;
-    /* right: 30px; */
+    
     text-align: left;
     padding-top: 0;
   }
@@ -670,7 +675,7 @@ img {
   }
   .wrapper .icon .tooltip {
     font-size: 13px;
-    /* line-height: 3px; */
+   
     border: 1px solid transparent;
     border-radius: 25px;
     background-color: orange;
@@ -687,7 +692,7 @@ img {
     pointer-events: auto;
   }
   .wrapper .icon:hover .tooltip.top {
-    /* bottom: 50px; */
+   
     top: -25px;
     right: 1px;
     background-color: #87cac5;
@@ -700,7 +705,7 @@ img {
   }
   .product:hover {
     transform: translateY(-5px);
-  }
+  } */
   /* chue css */
   
   #aboutus {
