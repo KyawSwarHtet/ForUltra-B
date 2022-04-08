@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/home-newarrival.css">
     <link rel="stylesheet" href="./library/particle.css">
     <link rel="stylesheet" href="./css/single.css">
+    <link rel="stylesheet" href="css/cart.css">
     
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -43,7 +44,7 @@
                 <ul>
                   <li><a href="/ForUltra-B/skin-care.html">SkinCare</a></li>
                   <li><a href="/ForUltra-B/makeup-page.html">Make-Up</a></li>
-                  <li><a href="/ForUltra-B/Lipstick.html">Lip Stick</a></li>
+                  <li class="active"><a href="/ForUltra-B/Lipstick.html">Lip Stick</a></li>
                   <li><a href="/ForUltra-B/hair.html">Hair & Body</a></li>
                 </ul>
               </div>
@@ -52,16 +53,16 @@
             <li><img src="news/01.png" alt=""></li>
             <li><a href="/ForUltra-B/blog.html">Blog</a></li>
             <li><a href="/ForUltra-B/wishlist.html">Wishlist</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="/ForUltra-B/contact.html">Contact</a></li>
           </ul>
           <div class="logo1">
             <img src="news/01.png" alt="">
           </div>
-          <div class="btn">
-            <button id="search"><i class="uil uil-search"></i></button>
-            <button id="login"><i class="uil uil-user"></i></i></button>
-            <button id="shopping"><i class="uil uil-shopping-bag"></i></button>
-          </div>
+        <div class="btn">
+          <button id="search"><i class="uil uil-search"></i></button>
+          <a class="login-nav" href="./signin-signup.html" id="login"><i class="uil uil-user"></i></a>
+          <button id="shopping"><i class="uil uil-shopping-bag"></i></button>
+        </div>
           <div class="btn2">
             <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
             <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
@@ -74,6 +75,24 @@
               <i class="uil uil-search"></i>
             </div>
           </div>
+        </div>
+
+        <!-- cart htoo lay -->
+        <div class="cart1">
+          <h2 class="section-header">CART</h2>
+          <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+          </div>
+          <div class="cart-items">
+          </div>
+          <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$0</span>
+          </div>
+          <button class="btn1 btn-primary1 btn-purchase" type="button">PURCHASE</button>
+          <button id="close-cart"><i class="uil uil-multiply"></i></button>
         </div>
     
       </nav>
@@ -1748,5 +1767,6 @@
 
     <!-- javascript -->
     <script src="./main.js"></script>
+    <script src="/ForUltra-B/cart.js"></script>
   </body>
 </html>
