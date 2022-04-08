@@ -288,6 +288,11 @@ font-family: 'Abril Fatface',sans-serif;
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .header-skincare {
+        
+        height: 20rem;
+        margin-bottom: 2rem;
+    }
     .seemorebtn {
        margin-right: 0;
     }
