@@ -546,15 +546,50 @@ button.white-1:hover {
     transform: translateY(-5px);
   }
   /* chue tablet 850 */
-  
+
+  .wrapper .icon:hover .tooltip.top {
+    top: -21px;
+    right: -4px;
+  }
+  .wrapper .icon:hover .tooltip.right {
+    bottom: 46px;
+    right: -1px;
+
+  }
+  .wrapper .icon .tooltip.right::before {
+    content: " ";
+    position: absolute;
+   
+    bottom: -6px;
+    left: 70%;
+    
+  }
   #aboutus {
     padding-top: 2rem;
-  }
   
+  }
+  .f-col h1 {
+    margin-top: 0rem;
+    font-size: 1.5rem;
+    font-family: "Yesteryear", cursive;
+  }
+  .f-col button {
+   
+    margin-top: 0rem;
+  }
   .about-img {
     margin-left: -2rem;
     width: 100%;
   }
+  .f-col p {
+    /* margin-top: 0rem; */
+    /* margin-left: -2rem; */
+    
+  }
+  .f-col{
+    height: 24rem;
+  }
+  
   
   .s-col {
     width: 100%;
@@ -575,6 +610,7 @@ button.white-1:hover {
   
   
   .s-col h3 {
+    margin-top: 0rem;
     font-size: 0.8rem;
   }
   
@@ -611,9 +647,16 @@ button.white-1:hover {
     margin-bottom: 18rem;
   }
 
+  .product .product-img {
+    width: 62% !important;
+    margin-left: 1.5rem !important;
+  }
+
   /* end of chue tablet 850 */
   /* thaw blog tablet 850 */
-  
+  .blog{
+    gap: 3rem;
+  }
   .blog-1 {
     margin-left: 35px;
     margin-right: 30px;
@@ -640,6 +683,14 @@ button.white-1:hover {
       width: var(--container-width-sm);
       margin: 0 auto;
     }
+
+    html,body{
+      width: 100%;
+      height: 100%;
+      margin: 0%;
+      padding: 0;
+      overflow-x: hidden;
+    }
   
     .promotion_title {
       margin-bottom: 2.5rem;
@@ -657,7 +708,7 @@ button.white-1:hover {
     }
   
     .wrapper .icon:hover .tooltip.top {
-      /* bottom: 50px; */
+      
       top: -10px;
       right: 5px;
     }
@@ -673,11 +724,27 @@ button.white-1:hover {
       padding: 0px 8px;
     }
   
-    /* chue mobile 450 */
+    .wrapper .icon:hover .tooltip.right {
+      bottom: 38px;
+      right: 1px;
+    }
+   
+    .wrapper .icon .tooltip.top::before {
+      content: " ";
+      position: absolute;
+     
+      bottom: -7px;
+      left: 67%;
+      
+    }
+    .wrapper .icon:hover .tooltip.top {
+      top: -20px;
+      right: 2px;
+    }
   
     #aboutus {
       flex-direction: column;
-      margin-left: 2.5rem;
+      margin-left: 0rem;
     }
   
     .f-col p {
@@ -688,6 +755,7 @@ button.white-1:hover {
   
     .s-col {
       color: var(--color-black);
+      margin-left: 1rem;
     }
   
     .s-col i {
@@ -743,21 +811,22 @@ button.white-1:hover {
     }
   
     .blog {
-      margin-left: 40px;
+      gap: 1rem;
+    
     }
     #our-blog h5 {
       margin-left: 5rem;
     }
   
     .blog-1 {
-      padding: 30px;
+      padding: 50px;
       height: 26vh;
       width: 100%;
       font-size: 13px;
     }
   
     .blog .blog-1 a {
-      padding-left: 5rem;
+      padding-left: 8rem;
       margin-top: 1rem;
       width: 140%;
     }
@@ -773,8 +842,13 @@ button.white-1:hover {
     }
   
     .blog .blog-2 a {
-      margin-left: -6rem;
+      margin-left: -8rem;
   
+    }
+
+    .product .product-img {
+      width: 72% !important;
+      margin-left: 1.5rem !important;
     }
   
     /* end thaw blog mobile 450 */

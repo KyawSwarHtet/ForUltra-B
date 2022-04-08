@@ -100,6 +100,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    line-height: 3.7rem;
 }
 
 #contact-detail .section-p1 {
@@ -243,13 +244,14 @@
 
 @media screen and (max-width: 450px) {
 
-    html,body {
-       width: 100%;
-       height: 100%;
-       margin: 0px;
-       padding: 0px;
-      
-    }
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0;
+    overflow-x: hidden;
+}
 
     .container {
         width: var(--container-width-sm);
@@ -257,8 +259,8 @@
       }
     
     .contact {
-        width: 180%;
-        height: 20rem;
+        width: 100%;
+        height: 10rem;
         padding-left: 150px;
         padding-right: 10px;
         
@@ -266,40 +268,42 @@
 
     #contact-detail {
         display: flex;
+        flex-direction: column;
     }
 
     #contact-detail .section-p1 {
-        padding-left: 110%;
+       
         font-size: 18px;
         float: left;
-        margin-left: 5px;
+        
     }
 
     #contact-detail .section-p2 {
-        padding-left: 40px;
+        
     }
 
     #form-details {
         padding-top: 10px;
-        padding-left: 30px;
+       
         line-height: 20px;
         flex-direction: column;
     }
 
-    #form-details form {
-        width: 120%;
-        margin-left: 30%;
+    #form-details {
+        width: 100%;
+    
     }
 
     #form-details form h2 {
-        font-size: 171%;
-        font-weight: 400;
+        font-size: 1.5rem;
+        font-weight: 600;
         width: 100%;
         margin-top: 10px;
     }
 
     #form-details form p {
-        font-size: 23px;
+        padding-top: 10px;
+        font-size: 18px;
         width: 100%;
         text-transform: none;
     }
@@ -315,9 +319,8 @@
     }
 
     #form-details .map {
-        width: 180%;
-        margin-left: 90%;
-        margin-top: 10%;
+        width: 100%;
+        margin-top: 2rem;
     }
 
     

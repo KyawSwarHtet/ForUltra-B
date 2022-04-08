@@ -168,8 +168,8 @@ nav{
 
 .active a {
   background-color: rgb(72, 202, 193);
-  padding: 3px 10px;
-  border-radius: 10px;
+  padding: 2px 0px;
+  border-radius: 2px;
   color: white !important;
   /* padding: 1px 2px; */
 }
@@ -863,6 +863,7 @@ img {
       color: var(--color-black);
       cursor: pointer;
       margin-top: 1.5rem;
+      background-color: transparent;
     }
     .btn2 button#close-menu-btn {
       display: none;
@@ -889,7 +890,18 @@ img {
       gap: 0;
       display: none;
     }
-  
+    .search_warp .search_box .input {
+      top: 20px;
+      left: -100px;
+    }
+    .search_warp .search_box .btn {
+    
+      top: 20px;
+      right: 64%;
+      width: 60px;
+      height: 70%;
+    
+    }
     .nav_menu li,
     #menu_sub {
       width: 80%;
@@ -973,11 +985,23 @@ img {
     section {
       padding: 3rem 0;
     }
+    .infomation{
+      flex-direction: column;
+      gap: 0rem;
+    }
     .nav_menu {
         position: fixed;
         right: 0%;
         width: 12rem;
         display: none;
+      }
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        margin: 0%;
+        padding: 0;
+        overflow-x: hidden;
       }
     .btn{
         gap: 0rem; 
@@ -985,6 +1009,22 @@ img {
     }
     .logo1{
         margin-left: 2%;
+    }
+
+    .search_warp .search_box .input {
+      top: 20px;
+      left: 150px;
+      width: 50%;
+      height: 70%;
+     
+    }
+    .search_warp .search_box .btn {
+     
+      top: 20px;
+      right: 100px;
+      width: 60px;
+      height: 70%;
+     
     }
     /* footer */
     footer .col {
