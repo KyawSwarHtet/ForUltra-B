@@ -214,7 +214,7 @@
   /* background: var(--product-card);
   background-repeat: repeat-y;
   background-size: 50% auto; */
-  background: linear-gradient(#e8d9e1 50%, #fff -50%);
+  background: linear-gradient(#f1d7f5 50%, #fff -50%);
 
   position: relative;
 }

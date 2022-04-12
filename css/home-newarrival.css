@@ -549,6 +549,20 @@ button.white-1:hover {
     width: 0;
     height: 0;
   }
+  .s-col a {
+    font-size: 1.5rem;
+  }
+  .s-col h3 {
+    margin-top: 0rem;
+  }
+  .blog .blog-1 p,
+  .blog .blog-1 a {
+    padding-left: 11rem;
+  }
+  .blog .blog-2 p,
+  .blog .blog-2 a {
+    padding-left: 0rem;
+  }
 }
 
 /* =====Media Queries(tablets)===== */
@@ -622,35 +636,45 @@ button.white-1:hover {
     height: 0;
   }
   #aboutus {
+    flex-direction: column;
     padding-top: 2rem;
   }
   .f-col h1 {
-    margin-top: 0rem;
+    margin-top: 4rem;
     font-size: 1.5rem;
     font-family: "Yesteryear", cursive;
   }
+  .f-col h3 {
+    margin-top: 3rem;
+  }
   .f-col button {
-    margin-top: 0rem;
+    margin-top: 1rem;
+    margin-left: -3rem;
   }
   .about-img {
     margin-left: -2rem;
     width: 100%;
   }
-  /* .f-col p {
-    margin-top: 0rem;
-    margin-left: -2rem;
-    
-  } */
+  .f-col p {
+    width: 88%;
+    margin-top: 6rem;
+    color: #000;
+    margin-left: -3rem;
+  }
   .f-col {
     height: 24rem;
   }
 
   .s-col {
     width: 100%;
-    padding-top: 0rem;
-    margin-left: 3rem;
+    padding-top: 9rem;
+    margin-left: 4rem;
     line-height: 10px;
     margin-bottom: 2rem;
+    color: #000;
+  }
+  .s-col a {
+    color: #000;
   }
 
   .first-row {
@@ -671,34 +695,41 @@ button.white-1:hover {
     margin-top: 0.6rem;
     margin-bottom: 0.6rem;
   }
-  /*slider  */
 
   #carouselExampleCaptions {
     width: 100%;
     margin: 0;
-    height: 37rem;
+    height: 31rem;
   }
 
   .carousel-caption h2 {
     font-size: 17px;
+    margin-bottom: 7rem;
   }
   .carousel-caption p {
-    margin-top: 5rem;
+    width: 100%;
+    font-size: 23px;
+    margin-bottom: 15rem;
   }
+
   .d-block {
-    height: 40rem;
+    height: 30rem;
   }
   .carousel-caption {
-    margin-bottom: 29rem;
+    margin-bottom: 7rem;
   }
   .carousel-control-prev {
-    margin-bottom: 18rem;
+    margin-bottom: 10rem;
   }
 
   .carousel-control-next {
-    margin-bottom: 18rem;
+    margin-bottom: 10rem;
   }
 
+  .product .product-img {
+    width: 62% !important;
+    margin-left: 1.5rem !important;
+  }
   /* end of chue tablet 850 */
   /* thaw blog tablet 850 */
   .blog {
@@ -716,6 +747,14 @@ button.white-1:hover {
   }
   #our-blog h5 {
     margin-left: 13rem;
+  }
+  .blog .blog-1 p,
+  .blog .blog-1 a {
+    padding-left: 14rem;
+  }
+  .blog .blog-2 p,
+  .blog .blog-2 a {
+    padding-left: 0rem;
   }
 
   /* end of thaw blog tablet 850 */
@@ -844,17 +883,17 @@ button.white-1:hover {
   }
 
   .carousel-control-prev {
-    margin-bottom: 18rem;
+    margin-bottom: 0rem;
   }
 
   .carousel-control-next {
-    margin-bottom: 18rem;
+    margin-bottom: 0rem;
   }
 
   .carousel-caption h2 {
     font-size: 2rem;
-    margin-bottom: 3rem;
-    margin-left: 3rem;
+    margin-bottom: 22rem;
+    margin-left: 4rem;
   }
 
   img.d-block.w-100 {
@@ -883,14 +922,14 @@ button.white-1:hover {
   }
 
   .blog .blog-1 a {
-    padding-left: 8rem;
+    padding-left: 12rem;
     margin-top: 1rem;
     width: 140%;
   }
 
   .blog .blog-1 p {
-    padding-left: 7rem;
-    width: 120%;
+    padding-left: 11rem;
+    width: 100%;
   }
 
   .blog .blog-2 p {
