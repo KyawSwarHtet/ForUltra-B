@@ -134,6 +134,13 @@ h4 {
     margin: 0 auto;
     max-width: 920px;
   }
+  .best-detail {
+    padding-left: 21%;
+  }
+  .best-detail img {
+    margin-left: -4rem;
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 360px) and (max-width: 580px) {
