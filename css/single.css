@@ -1187,4 +1187,8 @@ img {
   #header img {
     height: 10rem;
   }
+  .nav_container {
+    background: var(--nav-color);
+    padding-bottom: 6.5rem;
+  }
 }
