@@ -544,20 +544,63 @@ button.white-1:hover {
     width: 0;
     height: 0;
   }
+  
+
+#aboutus{
+  background-size: 65rem;
+  }
+  .about-img {
+    width: 123%;
+    height: 50%;
+}
+.f-col {
+  height: 24rem;
+}
+.f-col h1 {
+  margin-top: 0;
+  font-size: 2rem;
+  font-family: "Yesteryear", cursive;
+}
+.f-col button {
+   margin-top: 0rem; 
+}
+.s-col {
+  margin-left: 9rem;
+}
   .s-col a {
     font-size: 1.5rem;
   }
   .s-col h3 {
-    margin-top: 0rem;
+    font-size: 1rem;
+    margin-top: 1rem;
   }
+  .s-col h5 {
+    margin-top: 0rem;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
   .blog .blog-1 p,
   .blog .blog-1 a {
     padding-left: 11rem;
+    font-size: 0.8rem;
   }
   .blog .blog-2 p,
   .blog .blog-2 a {
     padding-left: 0rem;
   }
+  button.white {
+    font-size: 8px;
+    padding: 7px 13px; 
+}
+button.white-1 {
+  font-size: 8px;
+  padding: 7px 13px;
+}
+.blog-1 {
+
+  height: 40vh;
+  width: 45%;
+}
 }
 
 /* =====Media Queries(tablets)===== */
@@ -603,13 +646,13 @@ button.white-1:hover {
   .wrapper .icon:hover .tooltip.top {
     /* width: 40%; */
     width: fit-content;
-    top: 380px;
-    left: 40px;
+    top: 377px;
+    left: 42px;
   }
   .product-wish {
     position: absolute;
-    bottom: 12px;
-    left: 17px;
+    top: 377px;
+    left: 20px;
   }
 
   .wrapper .icon:hover .tooltip.right {
@@ -633,11 +676,14 @@ button.white-1:hover {
   #aboutus {
     flex-direction: column;
     padding-top: 2rem;
+    background-size: 43rem;
   }
   .f-col h1 {
     margin-top: 4rem;
+    margin-left: -3rem;
     font-size: 1.5rem;
     font-family: "Yesteryear", cursive;
+    color: #000;
   }
   .f-col h3 {
     margin-top: 3rem;
@@ -648,22 +694,21 @@ button.white-1:hover {
   }
   .about-img {
     margin-left: -2rem;
-    width: 100%;
+    width: 95%;
   }
   .f-col p {
-    width: 88%;
-    margin-top: 6rem;
+    width: 100%;
     color: #000;
     margin-left: -3rem;
   }
   .f-col {
-    height: 24rem;
+    height: 36rem;
   }
 
   .s-col {
     width: 100%;
-    padding-top: 9rem;
-    margin-left: 4rem;
+    padding:2rem 0 ;
+    margin-left: 2rem;
     line-height: 10px;
     margin-bottom: 2rem;
     color: #000;
@@ -704,7 +749,7 @@ button.white-1:hover {
   .carousel-caption p {
     width: 100%;
     font-size: 23px;
-    margin-bottom: 15rem;
+    margin-bottom: 2rem !important;
   }
 
   .d-block {
@@ -731,26 +776,24 @@ button.white-1:hover {
     gap: 3rem;
   }
   .blog-1 {
-    margin-left: 35px;
-    margin-right: 30px;
-    padding: 50px;
-    width: 90%;
-    border: 0;
-    outline: 0;
-    text-decoration: none;
-    list-style: none;
+    width: 100%;
+    height: 60vh;
   }
-  #our-blog h5 {
-    margin-left: 13rem;
-  }
+ 
   .blog .blog-1 p,
   .blog .blog-1 a {
-    padding-left: 14rem;
+    padding-left: 21rem;
   }
   .blog .blog-2 p,
   .blog .blog-2 a {
     padding-left: 0rem;
   }
+
+
+  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    padding-right: 0 !important; 
+    padding-left: 0 !important;
+}
 
   /* end of thaw blog tablet 850 */
 }
@@ -838,18 +881,44 @@ button.white-1:hover {
 
   #aboutus {
     flex-direction: column;
+    background-size: 34rem;
+    gap: 2rem;
+  }
+  .f-col {
     margin-left: 0rem;
-  }
-
+    height: 30rem;
+}
+  .f-col h1 {
+    margin-top: 4rem;
+    font-size: 2rem;
+    margin-left: 0;
+    /* text-align: center; */
+    color: #000;
+}
+.f-col h3 {
+  padding-top: 1rem;
+  margin-left: 5rem;
+}
+.about-img {
+  width: 100%;
+}
   .f-col p {
-    margin-top: 6rem;
-    margin-left: -2rem;
+    
     color: var(--color-black);
+    text-align: justify;
   }
+  .f-col a{
+    align-items: center;
+  }
+  .f-col button {
+    
+    margin-top: 0rem;
+    
+}
 
   .s-col {
     color: var(--color-black);
-    margin-left: 1rem;
+    margin-left: 0rem;
   }
 
   .s-col i {
@@ -887,7 +956,7 @@ button.white-1:hover {
 
   .carousel-caption h2 {
     font-size: 2rem;
-    margin-bottom: 22rem;
+    margin-bottom: 10rem !important;
     margin-left: 4rem;
   }
 
@@ -910,36 +979,38 @@ button.white-1:hover {
   }
 
   .blog-1 {
-    padding: 50px;
-    height: 26vh;
+    height: 35vh;
     width: 100%;
     font-size: 13px;
   }
 
+  .blog .blog-1 p,
   .blog .blog-1 a {
-    padding-left: 12rem;
-    margin-top: 1rem;
-    width: 140%;
+    padding-left: 13rem ;
   }
-
-  .blog .blog-1 p {
-    padding-left: 11rem;
-    width: 100%;
-  }
-
-  .blog .blog-2 p {
-    padding-left: 0rem;
-    width: 50%;
-  }
-
+  .blog .blog-2 p,
   .blog .blog-2 a {
-    margin-left: -8rem;
+    padding-left: 0rem;
   }
-
+  button.white {
+    font-size: 8px;
+    padding: 7px 13px; 
+}
+button.white-1 {
+  font-size: 8px;
+  padding: 7px 13px;
+}
   .product .product-img {
     width: 72% !important;
     margin-left: 1.5rem !important;
   }
+
+  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    
+    padding-right: 0 !important; 
+    padding-left: 0 !important;
+    
+}
 
   /* end thaw blog mobile 450 */
 }
