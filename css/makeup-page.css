@@ -433,6 +433,11 @@
     width: 0;
     height: 0;
   }
+  .lip-title h2 {
+    font-size: 3rem;
+    padding-top: 13rem;
+    padding-left: 3rem;
+  }
 }
 @media screen and (min-width: 580px) and (max-width: 920px) {
   .logo1 {
@@ -469,6 +474,11 @@
 
   .best-detail img {
     margin-left: -5rem;
+  }
+  .lip-title h2 {
+    font-size: 3rem;
+    padding-top: 13rem;
+    padding-left: 1rem;
   }
 }
 @media screen and (min-width: 360px) and (max-width: 580px) {

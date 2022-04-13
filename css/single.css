@@ -1187,4 +1187,11 @@ img {
   #header img {
     height: 10rem;
   }
+  .nav_container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: var(--nav-color);
+    padding-bottom: 6.5rem;
+  }
 }
